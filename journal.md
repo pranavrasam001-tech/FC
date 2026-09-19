@@ -2,3 +2,12 @@
 # time spent:1.5hr
 ## description:
 I am planning to design a drone flight controller using EasyEDA. Before starting the circuit, I researched how a flight controller works and looked at guides, component details, and basic connections. I selected the main parts needed for the design, such as the ESP32, power section, voltage regulator, motor ESC connections, LEDs, capacitors, resistors, and connectors. This project will help me understand how a flight controller handles power, receives signals, and controls the drone motors. In the next steps, I will create the schematic, connect all the components, add footprints, place the parts in the PCB editor, and start routing the board carefully.
+
+------
+
+# date:19/9
+# time spent:1.5hr
+## description:
+Firstly I have created a schematics in the EasyEDA so I have thought of doing the flight controller as it will be helpful and used in drone to take the videos from the altitudes with a neat picture so I have started creating the schematics where I have researched and gone through all the guides which will be helpful to it, so I have collected ESP32, RC_POW, BREGRAIL, MOT3ESC etc so I have collected it together now its time to wiring and add extra item if needed 
+<img width="940" height="566" alt="image" src="https://github.com/user-attachments/assets/62e5743e-b782-4fd1-baba-af8827ea7fc8" />
+<img width="838" height="450" alt="image" src="https://github.com/user-attachments/assets/f78aef0a-fa94-46f1-9071-bce835c4b68b" />
