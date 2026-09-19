@@ -18,3 +18,24 @@ Firstly I have created a schematics in the EasyEDA so I have thought of doing th
 Now I have started wiring al the components taken into the consideration but the wiring was little difficult as the overlap occurring the errors were more so to avoid at max how can I do I have done it , but the connection to connection was a time taking process as we need to calculate  everything and to do it .
 <img width="940" height="550" alt="image" src="https://github.com/user-attachments/assets/eff95aee-9dfa-4ec5-87ac-b1249a1972ae" />
 <img width="748" height="441" alt="image" src="https://github.com/user-attachments/assets/ee0e9d06-f4ec-46ba-8831-83669f4cb68d" />
+
+------
+
+# date:19/9
+# time spent:1hr
+## description:
+So now I have concluded the wiring by connecting the remailing parts , in the middle I have added some another parts like led etc., so this was my complete schematics where now foot prints need to be added.
+<img width="478" height="315" alt="image" src="https://github.com/user-attachments/assets/d8ab74da-3038-4587-a2da-83b2f0e4a24d" />
+<img width="940" height="550" alt="image" src="https://github.com/user-attachments/assets/df422540-c3d5-48b1-869b-66aaf3e419cb" />
+I have added foot prints to each component as shown below
+<img width="458" height="71" alt="image" src="https://github.com/user-attachments/assets/e4567873-6ce7-472d-8bd7-34d2abae13ff" />
+<img width="450" height="75" alt="image" src="https://github.com/user-attachments/assets/dd44bf97-c3ad-47a7-b193-af305fddbed1" />
+<img width="450" height="60" alt="image" src="https://github.com/user-attachments/assets/3b35fbe9-c029-443e-8be6-0463c07921e2" />
+<img width="473" height="75" alt="image" src="https://github.com/user-attachments/assets/eefb130b-850c-421a-a1e2-10dc9def2f2e" />
+<img width="471" height="89" alt="image" src="https://github.com/user-attachments/assets/bee96139-0e2a-4a88-bd77-049b9755bd21" />
+<img width="484" height="83" alt="image" src="https://github.com/user-attachments/assets/f694798d-0dfb-4213-b45d-c5f0e3392418" />
+
+
+
+
+
