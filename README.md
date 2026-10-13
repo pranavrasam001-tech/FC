@@ -75,6 +75,11 @@ It can help in understanding how a drone receives signals, manages power, and se
 - Checking PCB design in 3D view
 
 ---
+##Images 
+
+<img width="940" height="550" alt="image" src="https://github.com/user-attachments/assets/1abb1d07-9d4a-4ada-823b-18dbd84c535b" />
+<img width="940" height="755" alt="image" src="https://github.com/user-attachments/assets/629546b5-012a-45f4-ab14-0882a2a2764d" />
+<img width="940" height="608" alt="image" src="https://github.com/user-attachments/assets/274bd934-7775-47ea-ae50-d09f5d6d54b7" />
 
 ## Project Files
 
