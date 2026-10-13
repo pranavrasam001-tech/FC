@@ -1,13 +1,8 @@
-# Bill of Materials (BOM)
-
-
-| ID | Name                            | Designator                                                                           | Footprint                        | Quantity | Manufacturer Part | Manufacturer    | Supplier | Supplier Part | Price |
-| -: | ------------------------------- | ------------------------------------------------------------------------------------ | -------------------------------- | -------: | ----------------- | --------------- | -------- | ------------- | ----: |
-|  1 | ESP32-DEVKIT-V1-30PIN           | 2                                                                                    | `ESP32-DEVKITV1_ESP32-DEVKITV1`  |        1 | —                 | —               | —        | —             |     — |
-|  2 | 171825-4                        | `IIC_RAIL_1, IIC_RAIL_2, IIC_RAIL_3, IIC_RAIL_4, MOT5ESC, MOT6ESC, MOT7ESC, MOT8ESC` | `HDR-TH_4P-P2.54-D1.0`           |        8 | 171825-4          | TE Connectivity | LCSC     | C210162       | 0.233 |
-|  3 | MPU6050                         | M1                                                                                   | `MPU6050`                        |        1 | —                 | —               | —        | —             |     — |
-|  4 | 1                               | `RC_POW2, RX_TX2`                                                                    | `BERG2`                          |        2 | Berg2             | —               | —        | —             |     — |
-|  5 | BERG RAIL_6 RC receiver 6ch pwm | U2                                                                                   | `BERG_6`                         |        1 | —                 | —               | —        | —             |     — |
-|  6 | 300Ω                            | U3                                                                                   | `RES-TH_BD3.8-L10.3-P14.30-D0.7` |        1 | OF301JE           | Ohmite          | LCSC     | C3395810      | 0.396 |
-|  7 | 15400394A3590                   | U4                                                                                   | `LED-TH_BD3.0-P2.54-RD-RED`      |        1 | 15400394A3590     | Würth           | LCSC     | C5478689      |     — |
-
+ID,Name,Designator,Footprint,Quantity,Manufacturer Part,Manufacturer,Supplier,Supplier Part,Price
+1,ESP32-DEVKIT-V1-30PIN,2,ESP32-DEVKITV1_ESP32-DEVKITV1,1,,,,,
+2,171825-4,"IIC_RAIL_1,IIC_RAIL_2,IIC_RAIL_3,IIC_RAIL_4,MOT5ESC,MOT6ESC,MOT7ESC,MOT8ESC",HDR-TH_4P-P2.54-D1.0,8,171825-4,TE Connectivity (泰科电子),LCSC,C210162,0.233
+3,MPU6050,M1,MPU6050,1,,,,,
+4,1,"RC_POW2,RX_TX2",BERG2,2,Berg2,,,,
+5,BERG RAIL_6 RC receiver 6ch pwm,U2,BERG_6,1,,,,,
+6,300Ω,U3,RES-TH_BD3.8-L10.3-P14.30-D0.7,1,OF301JE,Ohmite,LCSC,C3395810,0.396
+7,15400394A3590,U4,LED-TH_BD3.0-P2.54-RD-RED,1,15400394A3590,Wurth (伍尔特),LCSC,C5478689,
