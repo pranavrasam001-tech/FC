@@ -1,10 +1,10 @@
-# Drone Flight Controller PCB
+# Drone Flight Controller PCB 
 
 ## About the Project
 
-This is a Drone Flight Controller PCB designed in EasyEDA. The purpose of this project was to learn how a flight controller board is designed from scratch. It is made to manage the power, signals, and motor connections required for a drone.
+I designed this Drone Flight Controller PCB using EasyEDA to learn how a flight controller board is designed from scratch. The board uses an ESP32-based control section and includes connections for motor ESCs, power regulation, LEDs, and other external components.
 
----
+Through this project, I explored how different electronic components are connected and arranged on a PCB for drone-related applications.
 
 ## Features
 
@@ -13,82 +13,93 @@ This is a Drone Flight Controller PCB designed in EasyEDA. The purpose of this p
 - Power input and voltage regulation
 - LED indicators
 - Connectors for external components
-- Compact PCB design
+- Compact PCB layout
 - Designed for drone-related projects
 
----
+## Tools and Components Used
 
-## Tools Used
-
+**Software:**
 - EasyEDA
+
+**Components:**
 - ESP32
-- Motor ESC connections
 - Voltage regulator
 - LEDs
 - Resistors
 - Capacitors
 - Connectors
 - Pin headers
-
----
+- Motor ESC connections
 
 ## What I Did
 
-- Researched flight controller design and required components.
-- Created the schematic in EasyEDA.
-- Added ESP32, power section, LEDs, capacitors, resistors, and connectors.
-- Connected all required components using wires and net labels.
-- Checked the component connections and values.
-- Added footprints for every component.
+- Researched the basic components needed for a drone flight controller.
+- Created the circuit schematic in EasyEDA.
+- Added the ESP32, power section, LEDs, resistors, capacitors, and connectors.
+- Connected the components using wires and net labels.
+- Checked component connections and values.
+- Assigned footprints to the components.
 - Converted the schematic into a PCB layout.
-- Arranged the components properly for routing.
-- Routed the PCB tracks as neatly as possible.
-- Checked the board using the 3D view.
+- Arranged the components to make the board layout organized.
+- Routed the PCB tracks and reviewed the connections.
+- Used the 3D view to check the overall board design.
 - Generated Gerber and drill files for PCB manufacturing.
 
----
+## PCB Design Preview
 
-## Drone Use
+### 1. Circuit Schematic
 
-This flight controller PCB can be useful for:
+The schematic shows how the different components are connected in the circuit.
 
-- Small drone projects
-- Learning drone electronics
+![Circuit Schematic](https://github.com/user-attachments/assets/1abb1d07-9d4a-4ada-823b-18dbd84c535b)
+
+### 2. PCB Layout
+
+The PCB layout shows the component placement and routed tracks on the board.
+
+![PCB Layout](https://github.com/user-attachments/assets/629546b5-012a-45f4-ab14-0882a2a2764d)
+
+### 3. 3D PCB View
+
+The 3D view helps visualize the overall board design and component arrangement.
+
+![3D PCB View](https://github.com/user-attachments/assets/274bd934-7775-47ea-ae50-d09f5d6d54b7)
+
+## Applications
+
+This design can serve as a starting point for learning and experimenting with:
+
+- Small drone electronics
 - Motor control projects
 - RC-based projects
 - DIY flight controller development
+- PCB design and embedded electronics
 
-It can help in understanding how a drone receives signals, manages power, and sends control signals to the motors.
-
----
+**Note:** The board is a design project. Actual flight operation requires suitable firmware, hardware assembly, and testing to verify that the controller works correctly.
 
 ## What I Learned
 
-- Flight controller circuit research
-- Creating schematics in EasyEDA
-- Selecting electronic components
-- Adding net labels and connections
-- Assigning footprints
-- PCB component placement
-- PCB routing
-- Gerber file generation
-- Checking PCB design in 3D view
+Building this project helped me gain practical experience in PCB design and circuit development.
 
----
-##Images 
+I learned how to:
 
-<img width="940" height="550" alt="image" src="https://github.com/user-attachments/assets/1abb1d07-9d4a-4ada-823b-18dbd84c535b" />
-<img width="940" height="755" alt="image" src="https://github.com/user-attachments/assets/629546b5-012a-45f4-ab14-0882a2a2764d" />
-<img width="940" height="608" alt="image" src="https://github.com/user-attachments/assets/274bd934-7775-47ea-ae50-d09f5d6d54b7" />
+- Research and select electronic components.
+- Create circuit schematics in EasyEDA.
+- Use net labels to organize circuit connections.
+- Assign footprints to components.
+- Arrange components on a PCB.
+- Route PCB tracks.
+- Review a design using the 3D viewer.
+- Generate Gerber and drill files for manufacturing.
 
-## Project Files
+## Project Structure
 
 ```text
-Drone-Flight-Controller-PCB
+Drone-Flight-Controller-PCB/
 │
-├── Schematic
-├── PCB Layout
-├── Gerber Files
-├── Drill Files
-├── Images
+├── Schematic/
+├── PCB Layout/
+├── Gerber Files/
+├── Drill Files/
+├── Images/
 └── README.md
