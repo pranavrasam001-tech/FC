@@ -53,3 +53,10 @@ Now I have successfully completed the schematics part so , now I need to update 
 <img width="940" height="608" alt="image" src="https://github.com/user-attachments/assets/ce22a3d5-bdac-4d51-86ac-c2a003303670" />
 
 ------
+
+# time spent:2hr
+## description:
+now i have checcked all the routing and the errors and it was perfectly routed each and every thing was routed , finnally completed the pcb of the flight controller 
+## Images
+<img width="687" height="637" alt="image" src="https://github.com/user-attachments/assets/d561374e-3f0e-4b43-9e7c-c6d2b08326a3" />
+<img width="610" height="576" alt="image" src="https://github.com/user-attachments/assets/6bde0002-ef4a-418e-b639-b660604de01b" />
