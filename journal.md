@@ -71,4 +71,12 @@ once again i have re assembled my pcb as it was nto arranges in the proper way w
 <img width="920" height="663" alt="image" src="https://github.com/user-attachments/assets/ca022099-b351-43af-901d-49741ee58bda" />
 <img width="1075" height="697" alt="image" src="https://github.com/user-attachments/assets/4a386994-0036-42dc-9df0-c77107a96f08" />
 
+------
+
+# time spent:0.5hr
+## description:
+i have eddited the PCB with adding some image to the top silkscreen so that it looks crazy for shipping
+## Images
+<img width="902" height="642" alt="image" src="https://github.com/user-attachments/assets/162d7cf6-6fe9-4ec7-bb9a-6b1dea4b22f7" />
+<img width="878" height="606" alt="image" src="https://github.com/user-attachments/assets/8eb85799-0bcc-4f4a-9552-63c543623b19" />
 
