@@ -95,19 +95,36 @@ I learned how to:
 - Review a design using the 3D viewer.
 - Generate Gerber and drill files for manufacturing.
 
-  ## Bill of Materials (BOM)
+## Bill of Materials (BOM)
 
-| Name | Designator | Quantity | Unit Price (USD) | Total Cost (USD) |
-|---|---|---:|---:|---:|
-| ESP32 DevKit V1 (30-pin) | 2 | 1 | 3.00 | 3.00 |
-| 4-Pin Header | IIC_RAIL_1, IIC_RAIL_2, IIC_RAIL_3, IIC_RAIL_4, MOT5ESC, MOT7ESC, MOT8ESC | 7 | 0.233 | 1.631 |
-| MPU6050 | M1 | 1 | 1.00 | 1.00 |
-| 4-Pin Header | MOT6ESC | 1 | 0.233 | 0.233 |
-| 2-Pin Connector | RC_POW2, RX_TX2 | 2 | 0.10 | 0.20 |
-| 6-Pin Receiver Header | U2 | 1 | 0.34 | 0.34 |
-| 300Ω Resistor | U3 | 1 | 0.396 | 0.396 |
-| Red LED | U4 | 1 | 0.3832 | 0.3832 |
-| **Total Component Cost** | | | | **7.1832** |
+| No. | Quantity | Comment | Designator | Footprint | Value | Manufacturer Part | Manufacturer | Supplier Part | Supplier | JLCPCB Price (USD) | LCSC Price (USD) | Line Total (USD) |
+|---:|---:|---|---|---|---|---|---|---|---|---:|---:|---:|
+| 1 | 1 | ESP32-DEVKIT-V1-30PIN | 2 | ESP32-DEVKITV1_ESP32-DEVKITV1 | — | — | — | — | — | — | — | 769.0059 |
+| 2 | 8 | 171825-4 | IIC_RAIL_1, IIC_RAIL_2, IIC_RAIL_3, IIC_RAIL_4, MOT5ESC, MOT6ESC, MOT7ESC, MOT8ESC | HDR-TH_4P-P2.54-D1.0 | — | 171825-4 | TE Connectivity | C210162 | LCSC | 0.035 | — | 0.2800 |
+| 3 | 1 | MPU6050 | M1 | MPU6050 | — | — | — | — | — | — | — | 769.0059 |
+| 4 | 2 | 1 | RC_POW2, RX_TX2 | BERG2 | — | Berg2 | — | — | — | — | — | 769.0059 |
+| 5 | 1 | BERG RAIL_6 RC receiver 6ch pwm | U2 | BERG_6 | — | — | — | — | — | — | — | 769.0059 |
+| 6 | 1 | 300Ω | U3 | RES-TH_BD3.8-L10.3-P14.30-D0.7 | — | OF301JE | Ohmite | C3395810 | LCSC | 0.0632 | — | 0.0632 |
+| 7 | 1 | 15400394A3590 | U4 | LED-TH_BD3.0-P2.54-RD-RED | — | 15400394A3590 | Würth | C5478689 | LCSC | 0.0586 | — | 0.0586 |
+
+## PCB Fabrication Cost Estimate (JLCPCB)
+
+
+| Item | Assumption | Low (USD) | High (USD) |
+|---|---|---:|---:|
+| Bare PCB (5 pcs) | 2 layers, ≤100 × 100 mm, 1.6 mm, HASL | $2.00 | $2.00 |
+| Shipping to India | Express courier, varies by weight | $15.00 | $25.00 |
+| Customs / GST (India) | Import charges | $3.00 | $6.00 |
+| **Fabrication Total** | | **$20.00** | **$33.00** |
+| | | | |
+| Priced Components (from BOM sheet) | ESP32, MPU6050, BERG headers unpriced | $0.40 | $0.40 |
+| **Grand Total (Fabrication + Priced Parts)** | | **$20.40** | **$33.40** |
+
+### Pricing Summary
+
+| Description | Amount (USD) |
+|---|---:|
+| Priced components subtotal | 0.4018 |
 
 ## Project Structure
 
