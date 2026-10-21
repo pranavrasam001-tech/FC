@@ -60,3 +60,15 @@ now i have checcked all the routing and the errors and it was perfectly routed e
 ## Images
 <img width="687" height="637" alt="image" src="https://github.com/user-attachments/assets/d561374e-3f0e-4b43-9e7c-c6d2b08326a3" />
 <img width="610" height="576" alt="image" src="https://github.com/user-attachments/assets/6bde0002-ef4a-418e-b639-b660604de01b" />
+
+------
+# date:21/10
+# time spent:2hr
+## description:
+once again i have re assembled my pcb as it was nto arranges in the proper way with all the connections in the pcb connected i have done it and its ready to use it. we can see it in the #d view with the clean structure.
+## Images
+<img width="805" height="565" alt="image" src="https://github.com/user-attachments/assets/9a6528a5-099b-41eb-933f-68bff67bc013" />
+<img width="920" height="663" alt="image" src="https://github.com/user-attachments/assets/ca022099-b351-43af-901d-49741ee58bda" />
+<img width="1075" height="697" alt="image" src="https://github.com/user-attachments/assets/4a386994-0036-42dc-9df0-c77107a96f08" />
+
+
