@@ -1,0 +1,13 @@
+PCB Fabrication Cost Estimate (JLCPCB),,,
+Estimates only - confirm by uploading Gerbers to JLCPCB. Edit blue cells.,,,
+,,,
+Item,Assumption,Low (USD),High (USD)
+Bare PCB (5 pcs),"2 layers, <=100x100 mm, 1.6 mm, HASL",$2.00,$2.00
+Shipping to India,"Express courier, varies by weight",$15.00,$25.00
+Customs / GST (India),Import charges,$3.00,$6.00
+Fabrication total,,$20.00,$33.00
+,,,
+Priced components (from BOM sheet),"ESP32, MPU6050, BERG headers unpriced",$0.40,$0.40
+Grand total (fab + priced parts),,$20.40,$33.40
+,,,
+"Note: all parts are through-hole/modules, so JLCPCB SMT assembly is not included (hand-solder).",,,
