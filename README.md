@@ -92,6 +92,20 @@ I learned how to:
 - Review a design using the 3D viewer.
 - Generate Gerber and drill files for manufacturing.
 
+  ## Bill of Materials (BOM)
+
+| Name | Designator | Quantity | Unit Price (USD) | Total Cost (USD) |
+|---|---|---:|---:|---:|
+| ESP32 DevKit V1 (30-pin) | 2 | 1 | 3.00 | 3.00 |
+| 4-Pin Header | IIC_RAIL_1, IIC_RAIL_2, IIC_RAIL_3, IIC_RAIL_4, MOT5ESC, MOT7ESC, MOT8ESC | 7 | 0.233 | 1.631 |
+| MPU6050 | M1 | 1 | 1.00 | 1.00 |
+| 4-Pin Header | MOT6ESC | 1 | 0.233 | 0.233 |
+| 2-Pin Connector | RC_POW2, RX_TX2 | 2 | 0.10 | 0.20 |
+| 6-Pin Receiver Header | U2 | 1 | 0.34 | 0.34 |
+| 300Ω Resistor | U3 | 1 | 0.396 | 0.396 |
+| Red LED | U4 | 1 | 0.3832 | 0.3832 |
+| **Total Component Cost** | | | | **7.1832** |
+
 ## Project Structure
 
 ```text
