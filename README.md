@@ -56,13 +56,16 @@ The schematic shows how the different components are connected in the circuit.
 ### 2. PCB Layout
 
 The PCB layout shows the component placement and routed tracks on the board.
-<img width="782" height="632" alt="image" src="https://github.com/user-attachments/assets/b6dd404e-ccc3-4463-abf2-263df18a4906" />
+<img width="878" height="606" alt="image" src="https://github.com/user-attachments/assets/6b202009-fef9-4590-954e-9a82eb8b9bb7" />
+
+
 
 
 ### 3. 3D PCB View
 
 The 3D view helps visualize the overall board design and component arrangement.
-<img width="585" height="572" alt="image" src="https://github.com/user-attachments/assets/f3489b1c-8669-4ece-aac2-6a59d737fc1b" />
+<img width="902" height="642" alt="image" src="https://github.com/user-attachments/assets/c1c2ccff-2327-4175-ab30-4d58a3dc2c9f" />
+
 
 
 ## Applications
