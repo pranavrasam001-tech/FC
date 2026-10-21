@@ -7,3 +7,13 @@
 6,BERG RAIL_6 RC receiver 6ch pwm,U2,BERG_6,1,,,,,,6,tky_CKT,,,,0.34,0.34,Comparable 6-position BERG-style connector/header listing; exact part number not specified.,https://www.electronicsurplus.com/berg-dupont-65043-034-connector-header-6-position
 7,300Ω,U3,RES-TH_BD3.8-L10.3-P14.30-D0.7,1,OF301JE,Ohmite,LCSC,C3395810,0.396,2,lcsc,Extended Part,,,0.396,0.396,Existing BOM price for Ohmite OF301JE from LCSC.,Price already present in uploaded BOM (LCSC C3395810)
 8,15400394A3590,U4,LED-TH_BD3.0-P2.54-RD-RED,1,15400394A3590,Wurth(伍尔特),LCSC,C5478689,,2,lcsc,,,,0.3832,0.3832,Listed estimated unit price for Wurth 15400394A3590 on JLCPCB; availability may vary.,https://jlcpcb.com/partdetail/WurthElektronik-15400394A3590/C5478689
+
+
+## PCB Fabrication Cost Estimate (JLCPCB, assumptions)
+
+| Item | Assumption | Cost (USD) |
+|------|------------|-----------:|
+| Bare PCB (5 pcs) | 2 layers, ≤100×100 mm, 1.6 mm, HASL | ~2.00 |
+| Shipping to India | DHL/express, varies by weight | ~15.00 – 25.00 |
+| Customs / GST (India) | Charged on import | ~3.00 – 6.00 |
+| **Fab total (estimate)** | | **~20.00 – 33.00** |
