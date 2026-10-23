@@ -1,0 +1,26 @@
+No.,Quantity,Comment,Designator,Footprint,Value,Manufacturer Part,Manufacturer,Supplier Part,Supplier,Library Type,Unit Price (USD),Total Cost (USD),Price Link,Price Basis
+1,7,171825-4,"IIC_RAIL_1,IIC_RAIL_2,IIC_RAIL_3,IIC_RAIL_4,MOT5ESC,MOT7ESC,MOT8ESC",HDR-TH_4P-P2.54-D1.0,,171825-4,TE Connectivity,C210162,JLCPCB/LCSC,Extended,0.2323,1.6261,https://jlcpcb.com/partdetail/TEConnectivity-1718254/C210162,JLCPCB BOM-tool match 2026-10-23 (unit = line total / order qty)
+2,1,171825-4,MOT6ESC,HDR-TH_4P-P2.54-D1.0,,171825-4,TE Connectivity,C210162,JLCPCB/LCSC,Extended,0.2323,0.2323,https://jlcpcb.com/partdetail/TEConnectivity-1718254/C210162,"JLCPCB BOM-tool match 2026-10-23 (unit = line total / order qty); same part as row 1, one 40-pc order covers both"
+3,1,MPU6050,M1,MPU6050,,MPU-6050,TDK InvenSense,C24112,JLCPCB/LCSC,Extended,20.8283,20.8283,https://jlcpcb.com/partdetail/TDKInvenSense-MPU6050/C24112,JLCPCB BOM-tool match 2026-10-23 (unit = line total / order qty); CHECK: matched part is QFN-24 chip but footprint has 8 pins
+4,2,1,"RC_POW2,RX_TX2",BERG2,,61117-1,TE Connectivity,C188392,JLCPCB/LCSC,Extended,0.0380,0.0760,https://jlcpcb.com/partdetail/TEConnectivity-611171/C188392,"JLCPCB BOM-tool match 2026-10-23 (unit = line total / order qty); CHECK: JLCPCB lists this as a crimp housing contact, not a pin header"
+5,1,300Ω,U3,RES-TH_BD3.8-L10.3-P14.30-D0.7,,OF301JE,Ohmite,C3395810,JLCPCB/LCSC,Extended,0.4202,0.4202,https://jlcpcb.com/partdetail/Ohmite-OF301JE/C3395810,"JLCPCB BOM-tool match 2026-10-23 (unit = line total / order qty); JLCPCB stock 0 - not in quote, confirm sourcing"
+6,1,15400394A3590,U4,LED-TH_BD3.0-P2.54-RD-RED,,15400394A3590,Wurth Elektronik,C5478689,JLCPCB/LCSC,Extended,0.3893,0.3893,https://jlcpcb.com/partdetail/WurthElektronik-15400394A3590/C5478689,"JLCPCB BOM-tool match 2026-10-23 (unit = line total / order qty); JLCPCB stock 0 - not in quote, confirm sourcing"
+7,1,ESP32-DEVKIT-V1-30PIN,2,ESP32-DEVKITV1_ESP32-DEVKITV1,,,,,,,,,,No JLCPCB part (dev board plugs into headers); price not in quote - add supplier price
+8,1,BERG RAIL_6 RC receiver 6ch pwm,U2,BERG_6,,,,,,,,,,No JLCPCB match (6-pin header); price not in quote - add supplier price
+9,1,"PCB fabrication - 2 layer, 100.3 x 74.4 mm, 5 pcs",PCB-FABRICATION,,,,,,JLCPCB,,0.8000,0.8000,,JLCPCB quote 2026-10-23: batch $4.00 / 5 boards
+10,1,PCBA setup fee - Economic,PCBA-SETUP-FEE,,,,,,JLCPCB,,1.6480,1.6480,,JLCPCB quote 2026-10-23: batch $8.24 / 5 boards
+11,1,PCBA stencil fee - Economic,PCBA-STENCIL-FEE,,,,,,JLCPCB,,0.3100,0.3100,,JLCPCB quote 2026-10-23: batch $1.55 / 5 boards
+12,1,Extended components fee,EXTENDED-PART-FEE,,,,,,JLCPCB,,0.6180,0.6180,,JLCPCB quote 2026-10-23: batch $3.09 / 5 boards
+13,1,SMT assembly,SMT-ASSEMBLY,,,,,,JLCPCB,,0.0480,0.0480,,JLCPCB quote 2026-10-23: batch $0.24 / 5 boards
+14,1,Hand-soldering labor fee,HAND-SOLDERING,,,,,,JLCPCB,,0.7220,0.7220,,JLCPCB quote 2026-10-23: batch $3.61 / 5 boards
+15,1,Manual assembly,MANUAL-ASSEMBLY,,,,,,JLCPCB,,0.5280,0.5280,,JLCPCB quote 2026-10-23: batch $2.64 / 5 boards
+16,1,Nitrogen reflow soldering,NITROGEN-REFLOW,,,,,,JLCPCB,,0.1820,0.1820,,JLCPCB quote 2026-10-23: batch $0.91 / 5 boards
+,,Priced component subtotal per board (rows 1-6),,,,,,,,,23.5722,23.5722,,Excludes rows 7-8 (no price)
+,,PCB + PCBA fees per board (rows 9-16),,,,,,,,,4.8560,4.8560,,From JLCPCB quote; batch total $24.28 / 5
+,,"TOTAL PER ASSEMBLED BOARD (excl. ESP32 dev board, row 8 header, shipping, tax, duties)",,,,,,,,,28.4282,28.4282,,
+,,"JLCPCB QUOTE TOTAL, 5 boards, 3 items (excl. shipping, tax, duties)",,,,,,,,,138.2500,138.2500,,PCB $4.00 + Economic PCBA $134.25 as shown at checkout
+,,"Parts NOT in quote: U3, U4 - parts cost for 5 boards",,,,,,,,,4.0475,4.0475,,Zero JLCPCB stock; fees for these not yet included
+,,"SHIPPING - JLCPCB checkout estimate, 0.79 kg, to India",,,,,,,,,9.7800,9.7800,,JLCPCB cart 2026-10-23; 
+,,"TOTAL INCL. SHIPPING (before coupon, excl. tax/duties)",,,,,,,,,148.0300,148.0300,,JLCPCB quote $138.25 + shipping $9.78
+,,Coupon applied at checkout,,,,,,,,,-10.0000,-10.0000,,JLCPCB cart 2026-10-23
+,,TOTAL PAYABLE AFTER COUPON (JLCPCB cart subtotal),,,,,,,,,138.0300,138.0300,,"Matches cart Subtotal;"
